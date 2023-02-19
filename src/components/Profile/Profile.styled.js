@@ -12,23 +12,26 @@ text-align: center;
 `;
 
 export const Picture = styled.img`
-width: 250px;
-height: 300px;
+width: 100px;
+height: 100px;
+border-radius: 50%;
 `;
 
 export const Stats = styled.ul`
+list-style: none;
 display: flex;
- list-style: none;
 justify-content: space-around;
+padding: 0;
+margin: 0;
 border: 1px solid black;
+border-radius: 10px;
  `;
 
 export const StatsItem = styled.li`
-display: flex;
 align-items: center;
-padding-top: 10px;
-padding-bottom: 10px;
-margin-right: 10px;
+padding-top: 20px;
+padding-bottom: 20px;
 `;
+
 
 
