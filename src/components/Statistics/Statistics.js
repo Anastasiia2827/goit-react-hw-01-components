@@ -1,8 +1,6 @@
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 import { StatisticsElement } from './StatisticsElements'; 
-import {Statistic} from './Statistics.styled';
-import {StatList} from './Statistics.styled';
-import {StatItem} from './Statistics.styled';
+import {Statistic, StatList, StatItem } from './Statistics.styled';
 import randomColor from '../Color';
 
 
@@ -25,6 +23,6 @@ export const Statistics = ({title, stats }) => {
 Statistics.propTypes = {
     stats: PropTypes.arrayOf(
         PropTypes.shape({
-        id: PropTypes.string.isRequired,
+        id: PropTypes.string.isRequired
     })).isRequired,
 };

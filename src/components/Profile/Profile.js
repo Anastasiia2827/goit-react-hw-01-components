@@ -1,10 +1,5 @@
 import PropTypes from 'prop-types';
-import { UserProfale } from './Profile.styled';
-import { Description } from './Profile.styled';
-import { Picture } from './Profile.styled';
-import { Stats } from './Profile.styled';
-import { StatsItem } from './Profile.styled';
-
+import { UserProfale, Description, Picture, Stats, StatsItem} from './Profile.styled';
 
 export default function Profile({ username, tag, location, avatar, followers, views, likes }) {
   return (
