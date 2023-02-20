@@ -1,25 +1,23 @@
 import styled from 'styled-components';
 
-export const Image = styled.img`    
-width: 150px;
-height: 150px;
+export const FriendUl = styled.ul`  
+list-style: none;
+width: 450px;
+text-align: center;
+padding: 0px;
+margin-top: 30px;
+margin-bottom: 0;
+`;
+
+export const FriendLi = styled.li`  
+background-color: whitesmoke;
+display: flex;
 border-radius: 5px;
-border: 1px solid black;
-margin-right: 30px;
+align-items: center;
+padding: 15px;
+&:not(:last-child) {
+    margin-bottom: 10px;
+}
 `;
 
-export const ImageName = styled.p` 
-margin-top: 0px;
-font-size: 20px; 
-`;
 
-export const Status = styled.span`
- width: 30px;
- height: 30px;
- border-radius: 50%;
- margin-left: 20px;
- margin-right: 20px;
- background-color: : ${props => {
-    return props.isActive ? 'green' : 'red' ;
- }};
-`;
