@@ -19,7 +19,7 @@ export const Status = styled.span`
  border-radius: 50%;
  margin-left: 20px;
  margin-right: 20px;
- color: ${props => {
+ background-color: : ${props => {
     return props.isActive ? 'green' : 'red' ;
  }};
 `;
